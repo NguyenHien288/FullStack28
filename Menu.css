@@ -1,0 +1,109 @@
+.menu{
+    display: block;
+    background-color: #D5B0AC;
+    color: #402E2A;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+}
+.menu-vertical{
+    display: none;
+    font-weight: bold;
+    font-size: 16px;
+    position: absolute;
+    margin-top: 6px;    
+}
+.item{
+    display: inline-block;
+    width: 100px;
+    padding: 6px 0px;
+    
+}
+.item:hover{
+    cursor: pointer;
+    background-color:#9CD08F ;
+    color: #FFFFFF;
+}
+.menu-vertical .item1{
+    width: 100px;
+    padding: 6px 0px;
+    background-color: #D5B0AC;
+    color: #402E2A;
+    text-align: center;
+    margin-top: 1px;
+    display: block;
+}
+.item1:hover{
+    cursor: pointer;
+    background-color:#9CD08F ;
+    color: #FFFFFF;
+}
+.item:hover .menu-vertical{
+    display: block;   
+}
+.menu-vertical-2-1{
+    display: none;
+    font-weight: bold;
+    font-size: 16px;
+    position: absolute;
+    border: 1px solid white; 
+    left: 100px;
+    top: 0px;
+    border-top: 0px;    
+}
+.item1:hover .menu-vertical-2-1  {
+    display: block;   
+}
+.item2:hover{
+    cursor: pointer;
+    background-color:#9CD08F ;
+    color: #FFFFFF;
+}
+.item2{
+    width: 100px;
+    padding: 6px 0px;
+    background-color: #D5B0AC;
+    color: #402E2A;
+    text-align: center;
+    margin-top: 1px;
+    display: block;
+}
+.menu-vertical-2-2{
+    display: none;
+    font-weight: bold;
+    font-size: 16px;
+    position: absolute;
+    border: 1px solid white; 
+    left: 100px;
+    top: 32px;
+    border-top: 0px;
+}
+.item1:hover .menu-vertical-2-2  {
+    display: block;   
+}
+.menu-vertical-2-3{
+    display: none;
+    font-weight: bold;
+    font-size: 16px;
+    position: absolute;
+    border: 1px solid white;  
+    left: 100px;
+    top: 64px;
+    border-top: 0px;
+}
+.item1:hover .menu-vertical-2-3  {
+    display: block;   
+}
+.menu-vertical-2-4{
+    display: none;
+    font-weight: bold;
+    font-size: 16px;
+    position: absolute;
+    border: 1px solid white;  
+    left: 100px;
+    top: 96px;
+    border-top: 0px;
+}
+.item1:hover .menu-vertical-2-4  {
+    display: block;   
+}
