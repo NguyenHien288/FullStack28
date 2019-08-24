@@ -35,6 +35,7 @@
 #avt{
    padding-top: 1px;
    padding-right: 6px;
+   height:35px;
 }
 #avt:hover{
     cursor: pointer;
@@ -146,7 +147,6 @@ input[type=button]:hover {
 }
 .footerSpan{
     border-top: 1px solid #d3d3d3; 
-    border-top-width: 200%;
     height: 20px;
     padding: 10px 0px 8px 17px;
     padding-top: 10px;
