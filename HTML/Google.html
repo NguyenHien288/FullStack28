@@ -4,6 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="part1.css">
-    <title>1.0</title>
+    <link rel="stylesheet" href="../CSS/Google.css">
+    <title>Google</title>
 </head>
+<body>
+    
+    <div class="header">
+        <a class="header-text">Gmail</a>
+        <a class="header-text">Hình ảnh</a>
+        <img id="icon" src="../Image/Icon1.png" onmouseover="this.src='../Image/Icon2.png';" onmouseout="this.src='../Image/Icon1.png'">
+        <img id="avt" src="../Image/Avt.png" height="35px">
+    </div>
+    <img id="logo" src="../Image/1200px-Google_2015_logo.svg.png" alt="google.com">
+    
+    <div class="input">
+        <input id="search-box" onfocus="onFocus()" onblur="onBlur()" type="text" name="search">
+            <div class="input-icon">
+                <img id="keyboard-icon"   src="../Image/KeyboardIcon.png">
+                <img id="mic-icon" src="../Image/MicIcon.png">
+        </div>
+    </div>
+    <div class="buttonDiv">
+    <input type="button" value="Tìm với Google">
+    <input type="button" value="Xem trang đầu tiên tìm được">
+    </div>
+    <div class="languageDiv">
+        <span>Google có các thứ tiếng:</span>
+        <span class="lang" >English</span>
+        <span class="lang" >Français</span>
+        <span class="lang" >中文（繁體）</span>
+    </div>
+    <div class="footer">
+        <p class="footerVN">Việt Nam</p>
+        <div class="footerSpan">
+            <span class="footerSpanItemLeft">Quảng cáo</span>
+            <span class="footerSpanItemLeft">Doanh nghiệp</span>
+            <span class="footerSpanItemLeft">Giới thiệu</span>
+            <span class="footerSpanItemLeft">Cách hoạt động của Tìm kiếm</span>
+            <span class="footerSpanItemRight">Cài đặt</span>
+            <span class="footerSpanItemRight">Điều khoản</span>
+            <span class="footerSpanItemRight">Bảo mật</span>
+        </div>
+    </div>
+    <script>
+        function onFocus(){
+            var x = document.getElementsByClassName("input");
+            x[0].style.boxShadow= "1px 1px 5px 1px #d1cfcb";
+        }
+        function onBlur(){
+            var x = document.getElementsByClassName("input");
+            x[0].style.boxShadow= "none";
+        }
+    </script>
+</body>

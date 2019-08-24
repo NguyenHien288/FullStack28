@@ -1,0 +1,171 @@
+#logo{
+    display: block;
+    height: 92px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  width: 272px;
+
+}
+#icon{
+    height: 16px;
+    background-repeat: no-repeat;
+    padding: 10px 20px 0px 5px;
+    
+}
+#icon:hover {
+    cursor: pointer;
+}
+.header{
+    margin: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+.header-text{
+    font-size: 13px;
+    font-family: arial,sans-serif;
+    margin-right: 15px;
+    padding-top: 11px;
+}
+.header-text:hover{
+    text-decoration: underline;
+    color: #5c5c5c;
+    cursor: pointer;
+}
+#avt{
+   padding-top: 1px;
+   padding-right: 6px;
+}
+#avt:hover{
+    cursor: pointer;
+}
+.input{
+    
+    margin-left: auto;
+  margin-right: auto;
+  height: 45px;
+  width: 567px;
+  margin-top:28px;
+  border-radius: 25px;
+  border: 1px solid rgba(0,0,0, 0.2);
+  padding-left: 23px;
+}
+.input:hover{
+    box-shadow: 1px 1px 5px 1px #d1cfcb;
+}
+.input:focus{
+    box-shadow: 1px 1px 5px 1px #d1cfcb;
+}
+#search-box{
+    display: inline-block;
+    position: relative;
+    height: 35px;
+    width: 485px;
+    /* border-radius: 20px; */
+    top:-11px;
+    border: none;
+    font-size: 18px;
+}
+#search-box:focus {
+    outline-width: 0;
+}
+.input-icon{
+    display: inline-block;
+    margin-top: 10px;
+}
+#keyboard-icon{
+    height: 26px;
+    padding: 0px ;
+    margin-bottom: 4px; 
+}
+#mic-icon{
+    position: relative;
+    height: 27px;
+    padding: 0px 10px;
+    top: -1px;
+}
+input[type=button]{
+    height: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+.buttonDiv{
+    margin-left: auto;
+    margin-right: auto;
+    height: 45px;
+    width: 567px;
+    margin-top: 19px;
+    padding-left: 200px;
+}
+input[type=button]:hover {
+    border: 1px solid #a6a6a6;
+    color: black;
+}
+.languageDiv{
+    margin-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin-left: 520px;
+    margin-top: 26px;
+    display: inline-block;
+    line-height: 28px;
+}
+.lang{
+    color: #5300d0  ;
+    margin: 0px 3px;    
+}
+.lang:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    margin-left: -9px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #d3d3d3; 
+    color: #5f6368;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+}
+.footerVN{
+    /* height: -5px; */
+    margin: 12px 29px;
+}
+.footerSpan{
+    border-top: 1px solid #d3d3d3; 
+    border-top-width: 200%;
+    height: 20px;
+    padding: 10px 0px 8px 17px;
+    padding-top: 10px;
+}
+.footerSpanItemLeft{
+    margin: 0px  13px 5px 10px;  
+}
+.footerSpanItemRight{
+    float: right;
+    margin: 0px 18px 5px 10px;  
+}
+.footerSpanItemLeft:hover, .footerSpanItemRight:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+#keyboard-icon:hover{
+    cursor: pointer;
+}
+#mic-icon:hover {
+    cursor: pointer;
+}
+
