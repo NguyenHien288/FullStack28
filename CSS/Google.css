@@ -5,13 +5,11 @@
   margin-right: auto;
   margin-top: 150px;
   width: 272px;
-
 }
 #icon{
     height: 16px;
     background-repeat: no-repeat;
     padding: 10px 20px 0px 5px;
-    
 }
 #icon:hover {
     cursor: pointer;
@@ -33,23 +31,22 @@
     cursor: pointer;
 }
 #avt{
-   padding-top: 1px;
-   padding-right: 6px;
-   height:35px;
+    padding-top: 1px;
+    padding-right: 6px;
+    height:35px;
 }
 #avt:hover{
     cursor: pointer;
 }
-.input{
-    
+.input{  
     margin-left: auto;
-  margin-right: auto;
-  height: 45px;
-  width: 567px;
-  margin-top:28px;
-  border-radius: 25px;
-  border: 1px solid rgba(0,0,0, 0.2);
-  padding-left: 23px;
+    margin-right: auto;
+    height: 45px;
+    width: 567px;
+    margin-top:28px;
+    border-radius: 25px;
+    border: 1px solid rgba(0,0,0, 0.2);
+    padding-left: 23px;
 }
 .input:hover{
     box-shadow: 1px 1px 5px 1px #d1cfcb;
@@ -62,7 +59,6 @@
     position: relative;
     height: 35px;
     width: 485px;
-    /* border-radius: 20px; */
     top:-11px;
     border: none;
     font-size: 18px;
@@ -142,7 +138,6 @@ input[type=button]:hover {
     letter-spacing: 0.2px;
 }
 .footerVN{
-    /* height: -5px; */
     margin: 12px 29px;
 }
 .footerSpan{
